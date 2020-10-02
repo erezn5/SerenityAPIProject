@@ -20,6 +20,7 @@ public class APISteps {
 	public void sendGetRequestForUser(String userId) {
 		response = SerenityRest.given().when().log().all().get(userId);
 		response.prettyPrint();
+		//New Code Added
 	}
 	
 	@Step("Send Post Request for user created with email: {0}, firstname{1} and lastname {2}")
