@@ -10,7 +10,7 @@ import net.thucydides.junit.annotations.Concurrent;
 import net.thucydides.junit.annotations.UseTestDataFrom;
 import steps.APISteps;
 
-@Concurrent(threads = "4x")
+//@Concurrent(threads = "4x")
 @RunWith(SerenityParameterizedRunner.class)
 @UseTestDataFrom(".\\src\\test\\resources\\testdata\\users.csv")
 public class CreateUserDetails extends BaseTest {
