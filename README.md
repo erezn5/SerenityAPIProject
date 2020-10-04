@@ -25,3 +25,6 @@ We use the decorator `@Steps` to indicate we are using `APISteps` as our test st
 We use the decorator `@Title` to indicate the title of the test step (and this is how it will appear in the HTML test report). 
 We use the decorator `@Test` to indicate the method is a test case (use case). 
 Then inside the method `getUserTest` we can mention the steps we want to use using the steps from the `APISteps` class that we declared earlier. 
+
+### For additional information please refer to the official Serenity Website documentation:
+	http://www.thucydides.info/#/
