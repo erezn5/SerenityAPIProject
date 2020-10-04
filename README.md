@@ -27,4 +27,4 @@ We use the decorator `@Test` to indicate the method is a test case (use case).
 Then inside the method `getUserTest` we can mention the steps we want to use using the steps from the `APISteps` class that we declared earlier. 
 
 ### For additional information please refer to the official Serenity Website documentation:
-	[Serenity BDD](http://www.thucydides.info/#/)
+[Serenity BDD](http://www.thucydides.info/#/)
